@@ -1,0 +1,22 @@
+.main {
+  width: 100vw;
+  z-index: -2;
+}
+
+.main__intro-container {
+  height: 20vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.main__intro {
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.main__image {
+  width: 100%;
+  height: 50vh;
+}

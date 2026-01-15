@@ -1,0 +1,33 @@
+.about {
+  width: 100vw;
+  z-index: -2;
+  background-color: white;
+  padding: 8%;
+}
+
+.about__image {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 70%;
+  height: 30%;
+  border-radius: 8px;
+}
+
+.about__title {
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: blue;
+}
+
+.about__info {
+  text-align: left;
+  text-indent: 12px;
+  color: black;
+  font-weight: 500;
+}
+
+.about__info_end {
+  margin-top: 20px;
+}

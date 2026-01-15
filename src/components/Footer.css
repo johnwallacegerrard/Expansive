@@ -1,0 +1,44 @@
+.footer {
+  /* width: 100vw; */
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5%;
+}
+
+.footer__contact-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__contact-title {
+  text-align: center;
+  color: blue;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.footer__contacts {
+  list-style-type: none;
+  padding: 0;
+  gap: 12px;
+}
+
+.footer__contact-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.footer__contact-image {
+  height: 20x;
+  width: 20px;
+  margin-right: 8px;
+}
+
+.footer__contact {
+  color: blue;
+  font-weight: 500;
+}
