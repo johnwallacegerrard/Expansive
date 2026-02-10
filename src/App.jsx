@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar.jsx";
 import Main from "./components/Main.jsx";
 import AboutUs from "./components/AboutUs.jsx";
 import Reviews from "./components/Reviews.jsx";
-import Price from "./components/Price.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
 
@@ -19,7 +18,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/reviews" element={<Reviews />} />
-        <Route path="/prices" element={<Price />} />
+        <Route path="/prices" element={<PriceSection />} />
       </Routes>
 
       <Footer />
